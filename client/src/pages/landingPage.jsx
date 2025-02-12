@@ -1,5 +1,11 @@
+import Showcase from "../components/showcase";
+
 const Homepage = () => {
-  return <div></div>;
+  return (
+    <div>
+      <Showcase />
+    </div>
+  );
 };
 
 export default Homepage;

@@ -30,7 +30,7 @@ const Header = () => {
   }, []);
 
   return (
-    <div className="bg-secondary relative flex items-center justify-between p-4">
+    <div className="bg-secondary relative flex items-center justify-between p-4 z-10">
       <h1 className="text-xl font-bold">Shoebox</h1>
 
       {/* Navbar is hidden on mobile and centered on large screens */}
